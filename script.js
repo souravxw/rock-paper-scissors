@@ -33,3 +33,8 @@ function getHumanChoice() {
     
 }
 
+
+//score count
+let humanScore = 0,
+    computerScore = 0;
+
