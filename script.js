@@ -11,3 +11,25 @@ function getComputerChoice() {
 
 }
 
+//human choice
+function getHumanChoice() {
+    let humanChoice = prompt("choice rock, paper or scissors");
+    
+    if(humanChoice === null) {
+        alert("You canceled the promt");
+    }
+
+    let choice = humanChoice.toLowerCase();
+
+    if(choice === 'rock') {
+        return "rock";
+    } else if(choice === "paper") {
+        return "paper";
+    } else if(choice === "scissors") {
+        return "scissors";
+    } else {
+        alert("Invalid input");
+    }
+    
+}
+
